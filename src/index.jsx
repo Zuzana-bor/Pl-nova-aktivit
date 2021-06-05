@@ -4,8 +4,7 @@ import './style.css';
 import { Header } from './components/Header/Header';
 import { Frontpage } from './pages/Frontpage/Frontpage';
 import { Inspiration } from './pages/Inspiration/Inspiration';
-
-import { Plans } from './components/Plans/Plans';
+import { Planner } from './pages/Plans/Planner';
 
 const App = () => (
   <>
@@ -13,7 +12,7 @@ const App = () => (
     <Frontpage />
     <Inspiration />
 
-    <Plans />
+    <Planner />
   </>
 );
 
