@@ -1,7 +1,7 @@
 import React from 'react';
-import './experienceItem.css';
+import './experienceItems.css';
 
-export const ExperienceItem = ({date,note}) => {
+export const ExperienceItems = ({date,note}) => {
   const items =[
      {
        date: "04.08.2021",
