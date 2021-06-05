@@ -1,0 +1,34 @@
+.conteiner__note {
+  display: flex;
+}
+
+.note {
+  flex-grow: 3;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.nadpis__note {
+  text-align: center;
+}
+
+.zapis_note {
+  padding-left: 30px;
+}
+#zapisek__note {
+  background-image: url('img/book.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#input__date__note,
+#input__nazev__note {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: 250px;
+}
+
+#submit__note {
+  width: 150px;
+}
