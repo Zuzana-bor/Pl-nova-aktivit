@@ -1,5 +1,5 @@
-.conteiner__note {
-  display: flex;
+.body__note {
+  background: url('img/zen.jpg');
 }
 
 .note {
