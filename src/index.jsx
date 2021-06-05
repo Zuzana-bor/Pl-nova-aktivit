@@ -6,6 +6,7 @@ import { Menu } from './components/Menu/Menu';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Frontpage } from './pages/Frontpage/Frontpage';
 import { Inspiration } from './pages/Inspiration/Inspiration';
+import { ExperienceItem } from './components/ExperienceItem/ExperienceItem';
 
 const Planovac = () => {
   return <h2>Plánovač aktivit</h2>;
@@ -37,6 +38,7 @@ const App = () => (
         </Switch>
       </div>
     </Router>
+   <ExperienceItem/>
   </>
 );
 
