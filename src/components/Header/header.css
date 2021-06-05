@@ -1,0 +1,11 @@
+.header {
+  background-color: whitesmoke;
+  color: #616e68;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 24px;
+  overflow: auto;
+  padding: 50px 15%;
+  margin: 0 5%;
+  text-align:center;
+}
