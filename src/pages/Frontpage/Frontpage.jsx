@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContentWithImage } from '../../components/contentWithImage/ContentWithImage';
+import { ContentWithImage } from '../../components/ContentWithImage/ContentWithImage';
 import cat from './img/cat.jpg';
 
 export const Frontpage = () => (

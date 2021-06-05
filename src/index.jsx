@@ -12,6 +12,8 @@ const Planovac = () => {
   return <h2>Plánovač aktivit</h2>;
 };
 
+import { Plans } from './components/Plans/Plans';
+
 const App = () => (
   <>
     <Header />
