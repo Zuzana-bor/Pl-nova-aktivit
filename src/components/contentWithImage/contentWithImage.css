@@ -1,0 +1,16 @@
+.project {
+  display: flex;
+}
+
+.project img {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.contentOfProject {
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Dancing Script';
+}

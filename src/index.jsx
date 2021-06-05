@@ -4,21 +4,15 @@ import './style.css';
 import { Header } from './components/Header/Header';
 import { Menu } from './components/Menu/Menu';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Frontpage } from './pages/Frontpage/Frontpage';
+import { Inspiration } from './pages/Inspiration/Inspiration';
 
 const Planovac = () => {
   return <h2>Plánovač aktivit</h2>;
 };
 
-const Inspirace = () => {
-  return <h2>Inspirace</h2>;
-};
-
 const Denik = () => {
   return <h2>Deník</h2>;
-};
-
-const Domu = () => {
-  return <h2>Domů</h2>;
 };
 
 const App = () => (
@@ -28,14 +22,14 @@ const App = () => (
       <Menu />
       <div>
         <Switch>
-        <Route exact path="/">
-            <Domu />
+          <Route exact path="/">
+            <Frontpage />
           </Route>
           <Route path="/planovac">
             <Planovac />
           </Route>
           <Route path="/inspirace">
-            <Inspirace />
+            <Inspiration />
           </Route>
           <Route path="/denik">
             <Denik />
