@@ -14,3 +14,38 @@
   height: 15px;
   width: 7px;
 }
+ul {
+  margin: 15px;
+  padding: 0;
+}
+
+/* Style the list items */
+.unchecked {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+.unchecked:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+.unchecked:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+.unchecked.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.compListItems {
+  margin: 60px 300px;
+}

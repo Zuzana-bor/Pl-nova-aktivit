@@ -6,19 +6,22 @@ export const AddItem = ({ onSubmit }) => {
 
   const handleClick = () => {
     onSubmit(activity);
+    setActivity('');
   };
   return (
     <>
-      <input
-        onChange={(event) => setActivity(event.target.value)}
-        value={activity}
-        type="text"
-        id="myInput"
-        placeholder="Název..."
-      />
-      <button onClick={handleClick} className="addBtn">
-        Přidat položku
-      </button>
+      <div className="compAddItem">
+        <input
+          onChange={(event) => setActivity(event.target.value)}
+          value={activity}
+          type="text"
+          className="myInput"
+          placeholder="Název..."
+        />
+        <button onClick={handleClick} className="addBtn">
+          Přidat položku
+        </button>
+      </div>
     </>
   );
 };

@@ -37,12 +37,13 @@ export const Plans = () => {
   };
 
   const handleSubmit = (activity) => {
+    const count = list.length;
     setList([
       ...list,
       {
         name: activity,
         isChecked: false,
-        id: list.lenght + 1,
+        id: count + 1,
       },
     ]);
   };
