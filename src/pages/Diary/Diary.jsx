@@ -1,6 +1,11 @@
 import React from 'react';
-import {ExperienceItems} from '../../components/ExperienceItems/ExperienceItems'
+import {ExperienceItems} from '../../components/ExperienceItems/ExperienceItems';
+import {DiaryForm} from '../../components/DiaryForm/DiaryForm';
 
-export const Diary = () => (
+export const Diary = () => {
+  return (
+  <>
   <ExperienceItems/>
-)
+  <DiaryForm/>
+  </>
+  )}

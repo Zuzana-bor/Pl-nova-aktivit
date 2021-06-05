@@ -1,10 +1,6 @@
 .body__note {
   background: url('img/zen.jpg');
 }
-.conteiner__note {
-  display: flex;
-}
-
 .histories__note {
   display: flex;
   flex-direction: column;

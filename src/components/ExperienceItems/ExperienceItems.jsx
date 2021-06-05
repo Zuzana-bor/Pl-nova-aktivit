@@ -19,10 +19,11 @@ export const ExperienceItems = ({date,note}) => {
      }
    ]
 
-    return items.map(({date,note},index)=>(<article key={index} className="history__note">
+    return (
+    items.map(({date,note},index)=><article key={index} className="history__note">
       <div id="date__note">{date}</div>
       <div id="name__note">
         <a href="#">{note}</a>
-      </div>
+        </div>
     </article>)
 )};
