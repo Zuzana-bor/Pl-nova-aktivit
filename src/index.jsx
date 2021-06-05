@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Frontpage } from './pages/Frontpage/Frontpage';
 import { Inspiration } from './pages/Inspiration/Inspiration';
 import { Planner } from './pages/Plans/Planner';
+import { Diary } from './pages/Diary/Diary';
 
 const App = () => (
   <>
@@ -19,7 +20,7 @@ const App = () => (
             <Frontpage />
           </Route>
           <Route path="/planovac">
-            <Planovac />
+            <Planner />
           </Route>
           <Route path="/inspirace">
             <Inspiration />

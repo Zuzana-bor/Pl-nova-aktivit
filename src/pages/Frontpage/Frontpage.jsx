@@ -1,6 +1,7 @@
 import React from 'react';
 import { ContentWithImage } from '../../components/ContentWithImage/ContentWithImage';
 import cat from './img/cat.jpg';
+import './frontpage.css';
 
 export const Frontpage = () => (
   <ContentWithImage
