@@ -6,7 +6,7 @@ export const Menu = () => (
   <nav>
     <ul className="menu">
       <li>
-        <NavLink className="menu-link" to="/">Domů</NavLink>
+        <NavLink exact className="menu-link" to="/">Domů</NavLink>
       </li>
       <li>
         <NavLink className="menu-link" to="/planovac">Plánovač</NavLink>

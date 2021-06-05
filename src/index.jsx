@@ -28,6 +28,9 @@ const App = () => (
       <Menu />
       <div>
         <Switch>
+        <Route exact path="/">
+            <Domu />
+          </Route>
           <Route path="/planovac">
             <Planovac />
           </Route>
@@ -36,9 +39,6 @@ const App = () => (
           </Route>
           <Route path="/denik">
             <Denik />
-          </Route>
-          <Route exact path="/">
-            <Domu />
           </Route>
         </Switch>
       </div>
