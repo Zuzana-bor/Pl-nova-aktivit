@@ -4,6 +4,8 @@ import './contentWithImage.css';
 export const ContentWithImage = ({ clanek, image }) => (
   <section className="project">
     <div className="contentOfProject">{clanek}</div>
-    <img {...image} />
+    <figure className="image">
+      <img {...image} />
+    </figure>
   </section>
 );
