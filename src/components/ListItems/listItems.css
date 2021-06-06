@@ -1,49 +1,50 @@
-.checked {
-  background: #888;
-  color: #fff;
-  text-decoration: line-through;
-  padding: 18px;
-  /*position: relative;*/
-}
-.checked::before {
-  content: '';
-  position: absolute;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
-}
-ul {
-  margin: 0px;
-  padding: 0;
-}
 
-/* Style the list items */
-.unchecked {
+.item {
+  padding: 20px 20px 20px 30px;
   cursor: pointer;
   position: relative;
-  padding: 12px 8px 12px 40px;
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
 }
 
+.checked::before {
+  content: '';
+  position: absolute;
+  border-color: black;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+  left: 10px;
+}
+
+.checked {
+  background: #888;
+  color: black;
+  text-decoration: line-through;
+}
+
+ul {
+  margin: 0px;
+  padding: 0;
+}
+
 /* Set all odd list items to a different color (zebra-stripes) */
-.unchecked:nth-child(odd) {
+.item:nth-child(odd) {
   background: #f9f9f9;
 }
 
 /* Darker background-color on hover */
-.unchecked:hover {
+.item:hover {
   background: #ddd;
 }
 
 /* When clicked on, add a background color and strike out text */
 .unchecked.checked {
   background: #888;
-  color: #fff;
+  color: white;
   text-decoration: line-through;
 }
 

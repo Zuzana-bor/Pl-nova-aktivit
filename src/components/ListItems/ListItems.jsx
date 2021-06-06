@@ -8,7 +8,7 @@ export const ListItems = ({ list, onClick }) => {
         {list.map((item) => (
           <li
             key={item.id}
-            className={item.isChecked ? 'checked' : 'unchecked'}
+            className={`item ${item.isChecked ? 'checked' : 'unchecked'}`}
             onClick={() => onClick(item.id)}
           >
             {item.name} {item.isChecked}
