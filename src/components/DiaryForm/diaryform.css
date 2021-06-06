@@ -10,12 +10,16 @@
 
 .nadpis__note {
   text-align: center;
+  font-size: 24px;
+  color: #6b5b55;
+  font-weight:bold;
 }
 
 .zapis_note {
   padding-left: 30px;
 }
 #zapisek__note {
+  margin-top:20px;
   background-image: url('img/book.png');
   background-size: 100%;
   background-repeat: no-repeat;
@@ -23,7 +27,8 @@
 
 #input__date__note,
 #input__nazev__note {
-  border: 2px solid black;
+  border: 2px solid #70625b;
+  border-radius:5px;
   margin: 5px;
   padding: 5px;
   width: 250px;
@@ -31,4 +36,6 @@
 
 #submit__note {
   width: 150px;
+  margin-top:10px;
+  color: #70625b;
 }

@@ -4,7 +4,10 @@ import './diaryform.css';
 export const DiaryForm = ({onSubmit}) => {
   const [values, setValues] = useState({ });
   const handleChange=(event)=>{
-    setValues({...values, [event.target.name]:event.target.value})
+    setValues({
+      ...values,
+      [event.target.name]:event.target.value
+    })
   }
 
   const handleClick = () => {

@@ -10,13 +10,16 @@
   display: flex;
   justify-content: space-between;
   border: 2px solid black;
+  border-radius:2px;
   align-items: start;
+  margin-top:40px;
 }
 
 #date__note {
   border: 2px solid black;
   border-radius: 45%;
-  background-color: lightgreen;
+  background-color: rgb(179, 236, 179);
   padding: 5px;
   font-size: 20px;
+  margin:5px;
 }
