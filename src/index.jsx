@@ -8,6 +8,7 @@ import { Frontpage } from './pages/Frontpage/Frontpage';
 import { Inspiration } from './pages/Inspiration/Inspiration';
 import { Planner } from './pages/Plans/Planner';
 import { Diary } from './pages/Diary/Diary';
+import { Topic } from './pages/Topic/Topic';
 
 const App = () => (
   <>
@@ -22,11 +23,14 @@ const App = () => (
           <Route path="/planovac">
             <Planner />
           </Route>
-          <Route path="/inspirace">
+          <Route exact path="/inspirace">
             <Inspiration />
           </Route>
           <Route path="/denik">
             <Diary />
+          </Route>
+          <Route path="/inspirace/:topic">
+            <Topic />
           </Route>
         </Switch>
       </div>
