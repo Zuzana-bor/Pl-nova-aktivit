@@ -29,7 +29,7 @@ export const DiaryForm = ({onSubmit}) => {
               placeholder="Název příspěvku"
               name="note"
             />
-            <textarea onChange={handleChange}
+            <textarea className="zapisTextu" onChange={handleChange}
               id="zapisek__note"
               name="content"
               rows="33"
