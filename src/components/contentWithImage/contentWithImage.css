@@ -1,7 +1,6 @@
-
-
 .contentOfProject {
   font-family: 'Dancing Script';
+  margin: 25px;
 }
 
 .project {
@@ -10,8 +9,13 @@
   margin: 0 5%;
   align-items: center;
   background-color: #bdd4c9;
+  padding: 25px;
+}
+
+.imageConteiner {
+  width: 2044px;
 }
 
 .image {
-  width: 500px;
+  max-width: 100%;
 }
