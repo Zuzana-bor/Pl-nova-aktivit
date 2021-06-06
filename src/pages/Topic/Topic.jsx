@@ -15,7 +15,7 @@ export const Topic = () => {
       <MenuInspiration />
       <h1 className="title">{topic}</h1>
       {relatetPosts.map((post) => (
-        <article>
+        <article className="onePost">
           <h2>{post.title}</h2>
           <section>{post.content.slice(0,150)}...</section>
         </article>
