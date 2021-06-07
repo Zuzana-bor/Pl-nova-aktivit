@@ -49,7 +49,7 @@ export const posts = [
     Štěstí, to jak jsme v životě šťastní se odvíjí od kvality naších vztahů. Znamená to, že jsme zase u sebelásky. Za nejčastější příčinou nemocí a zdravotních problémů stojí právě naše vztahy. I samotná psychosomatika nám to ukazuje jak velmi důležité jsou naše vztahy a jejich kvalita pro naše zdraví.
     Zdroj: https://cestazasnem.com/sebelaska/`,
     category: 'Vztahy',
-    image: './assets/beach.jpg',
+    image: '/assets/beach.jpg',
     alt: 'beach',
   },
   {
@@ -72,6 +72,8 @@ export const posts = [
     Zdroj: https://www.akademierodicovstvi.cz/blog/cesta-k-vzajemnemu-partnerstvi-mezi-matkou-a-dcerou
     `,
     category: 'Vztahy',
+    image: '/assets/mama.jpg',
+    alt: 'mama',
   },
   {
     title: 'Přátelství',
@@ -98,6 +100,8 @@ export const posts = [
     „Na našem zdraví se mimo jiné podílí radost ze života a dobrý vztah k sobě. Lidé, kteří mají k sobě dobrý vztah, se k sobě lépe chovají, lépe a zdravěji žijí. Radostní lidé snáze překonávají těžkosti, které občas potkávají každého z nás, naopak osamělost a izolace vyvolávají ve většině lidí pocity méněcennosti a vedou k depresivním stavům,“ upozorňuje Jan Kulhánek.
     Zdroj: https://www.idnes.cz/onadnes/zdravi/proc-potrebujeme-pratelstvi-pritel-pritelkyne-pratele-vztah-zdravi.A171212_103245_zdravi_pet`,
     category: 'Vztahy',
+    image: '/assets/pratelstvi.jpg',
+    alt: 'pratelstvi',
   },
   {
     title: 'Spokojený partnerský vztah',
@@ -121,6 +125,8 @@ export const posts = [
     Zdroj: https://psychologie.cz/nejdulezitejsi-vlastnost-pro-vztah/
     `,
     category: 'Vztahy',
+    image: '/assets/love.jpg',
+    alt: 'vztah',
   },
   {
     title: 'Člověk a zvíře',
@@ -136,6 +142,8 @@ export const posts = [
     Kromě psa a kočky se v terapii výrazně uplatňuje i kůň. Již klasik antické medicíny Hippokrates věděl o tom, že rytmus koňské chůze má lečebný význam, a jízdu na koni doporučoval k udržení dobré fyzické kondice až do vysokého věku. Hipoterapie je zvláštní forma pohybové léčby, která využívá hybné fyziologické vzruchy koně k rehabilitaci řady onemocnění. Kůň má však i přímý vliv na psychiku. Jízda na koni zvyšuje pocit sebevědomí a sebejistoty. Kůň se člověku stává partnerem i společníkem. Pozitivně působí i vyšší tělesná teplota koňského těla (zvláště na málo osrstěných místech, jako jsou např. nozdry) nebo hmatové podněty při hlazení srsti. Tělesný dotyk představuje nejstarší formu navazování sociální komunikace. Ve Spojených státech se nyní rozvíjí chov miniponíků. Jsou nejen „hračkou“ bohatých lidí, uplatní se i v sociálních zařízeních. Postiženým dětem umožňují návštěvy poníků přímo v ústavech prožít vzrušující chvíle. Také v domovech důchodců je setkání s poníky emocionálně podnětné.
     Zdroj: https://vesmir.cz/cz/casopis/archiv-casopisu/1995/cislo-11/vliv-zvirat-psychiku-cloveka.html`,
     category: 'Vztahy',
+    image: '/assets/pes.jpg',
+    alt: 'pes',
   },
   {
     title: 'Vztah s rodiči',
@@ -159,6 +167,8 @@ export const posts = [
     Zdroj: https://forbes.cz/proc-je-pro-nase-vztahy-dulezite-jak-to-mame-s-rodici/
     `,
     category: 'Vztahy',
+    image: '/assets/rodice.jpg',
+    alt: 'rodice',
   },
   {
     title: 'Naplněný vztah',
@@ -189,6 +199,8 @@ export const posts = [
     Jaké to bylo, když jste se potkali poprvé? Pamatujete si na ty okamžiky? Flirtování, letmé doteky, společné zážitky. Zavzpomínejte a zapojte některé zvyky i do současnosti. Objímali jste se dříve častěji? Zkuste tento zvyk obnovit a dejte vašemu vztahu opět jiskru!  
     `,
     category: 'Vztahy',
+    image: '/assets/couple.jpg',
+    alt: 'par',
   },
   {
     title: 'Důvěra',
@@ -202,6 +214,8 @@ export const posts = [
     Zdroj: https://www.nikola-sraibova.cz/2018/11/15/otazka-duvery/
     `,
     category: 'Vztahy',
+    image: '/assets/duvera.jpg',
+    alt: 'duvera',
   },
   {
     title: 'Potřeba uznání',
@@ -217,6 +231,8 @@ export const posts = [
     
     Zdroj: https://www.nikola-sraibova.cz/2020/06/18/maraton-honby-za-uznanim-a-potreba-zavdecit-se/`,
     category: 'Vztahy',
+    image: '/assets/uznani.jpg',
+    alt: 'uznani',
   },
   {
     title: 'Sebeláska ve vztahu',
@@ -227,101 +243,135 @@ export const posts = [
     Tato závislost často vede až k tomu, že za všechno obviňujeme partnera a jsme nešťastní ve vztahu a podobně. Velice často je v takovém vztahu i žárlivost a někdy se to může dostat i za hranu zákona například v podobě násilí.
     Zdroj: https://cestazasnem.com/sebelaska/`,
     category: 'Vztahy',
+    image: '/assets/sebelaska.jpg',
+    alt: 'sebelaska',
   },
   {
     title: 'Nastandartní použití',
     keys: 'nestandartní',
     content: `Vezměte obvyklý předmět, který používáte v každodenním životě a snažte se přijít s největším počtem nestandardních použití. Třeba taková lžíce. Nemusíte s ní jen jíst. Můžete z ní vyrobit jedinečnou lampu, obraz nebo s ní označit, kde jste co zasadili na zahradě.`,
     category: 'Kreativita',
+    image: '/assets/pribor.jpg',
+    alt: 'pribor',
   },
   {
     title: 'Změna',
     keys: 'změna',
     content: `Čas od času přerušte obvyklý průběh věcí a změňte své zvyky. Pokud například chodíte na večeři do stejné restauraci každý týden nebo dokonce každý den, změňte ji.`,
     category: 'Kreativita',
+    image: '/assets/restaurace.jpg',
+    alt: 'restaurace',
   },
   {
     title: 'Nová jídla',
     keys: 'Nová jídla',
     content: `Vyzkoušejte jídla jiné světové kuchyně, vyberte novou trasu, kterou půjdete domů z práce a tak podobně. Když se nad tím zamyslíte, je v našem životě spousta drobných zvyků, kterými se zavíráme do krabice. Snažte se tyto zdi zbořit a vystoupit za její hranice.`,
     category: 'Kreativita',
+    image: '/assets/kuchyne.jpg',
+    alt: 'kuchyne',
   },
   {
     title: 'Alternativní způsob',
     keys: 'alternativní způsob',
     content: `Pokud máte nějaký problém, nepokoušejte se ho vyřešit obvyklým způsobem. Lidé si často myslí, že je bláznivé dělat něco nového, když to staré funguje dobře. Ale Einstein tvrdil, že šílenství je, když děláš totéž a čekáš na nový výsledek. Takže nezačínejte s řešením, dokud nenajdete alespoň jeden alternativní způsob, jak to udělat.`,
     category: 'Kreativita',
+    image: '/assets/einstein.jpg',
+    alt: 'einstein',
   },
   {
     title: 'Tvroba',
     keys: 'tvorba',
     content: `Další skvělý způsob, jak rozvíjet svou kreativitu, je věnovaní se jakémukoliv druhu tvorby. Může to být cokoliv, hlavní věcí je najít něco co se bude líbit Vám. Můžete začít kreslit, psát poezii nebo písně nebo jít a učit se hrát hudební nástroj. A smyslem není to, abyste byli v této činnosti úspěšní. Nejdůležitější je získat nový zážitek a nový úhel pohledu. Váš mozek začne pracovat jinak. Koneckonců, kreativita je přerušení myšlení, přerušení obvyklé posloupnosti myšlenek, slov, skutků, toku života.`,
     category: 'Kreativita',
+    image: '/assets/art.jpg',
+    alt: 'art',
   },
   {
     title: 'Cestování',
     keys: 'sport, cestování, tvořivost',
     content: `Užitečné je i cestovat nebo se začít s novým sportem. Obecně platí, že nová místa nebo změna situace značně rozšiřují obzory a přispívají k tvořivosti. Důležité je cestovat s otevřenými očima a srdcem, abyste nepropásli nic nového.`,
     category: 'Kreativita',
+    image: '/assets/sky.jpg',
+    alt: 'sky',
   },
   {
     title: 'Asociativní myšlení',
     keys: 'paměť, asociace, kreativita',
     content: `7) Rozvíjejte vaše asociativní myšlení! Naučte mozek spojovat dohromady zdánlivě nekoherentní koncepty. To vám pomůže zlepšit paměť a vyškolí váš mozek pro kombinování různých konceptů. Koneckonců, ne každý je schopen takové asociace uskutečnit. Tyto jednoduché tipy vám pomohou rozvíjet svou kreativitu, naučit mozekpřekračovat obecně nastavené hranice a limity, zpochybnit základy anajít jedinečná řešení problémů.`,
     category: 'Kreativita',
+    image: '/assets/asociace.jpg',
+    alt: 'asociace',
   },
   {
     title: 'Mindfullness (všímavost)',
     keys: 'mindfullness, všímavost',
     content: `Mindfulness je schopnost plně si uvědomovat, co prožíváme v přítomném okamžiku.Stovky vědeckých studií prokázaly přínosy cvičení mindfulness pro zvládání stresu, zlepšení pozornosti, rozvoj kreativity a budování kvalitnějších vztahů. V businessu (např. Google, McKinsey), na univerzitách(např. Harvard, Oxford, Berkeley)i ve zdravotnictví – mindfulness dnes pomáhá lidem po celém světě lépe zvládat životní i pracovní výzvy.Mindfulness (neboli všímavost) můžeme volně definovat jakoschopnost plně prožívat přítomný okamžik a s nadhledem i se zájmem objevovat, co ve v něm odehrává...(https://www.mindfulnessclub.cz/o-nas#Mindfulness1) Zde naleznete články na různorodá témata okolo mindfulness a osobního rozvoje: https://www.mindfulnessclub.cz/clanky.`,
     category: 'Relaxace',
+    image: '/assets/mindfullness.jpg',
+    alt: 'mindfullness',
   },
   {
     title: 'Relaxační techniky (např. body-scan)',
     keys: 'relaxační techniky, body scan',
     content: `Meditace Body-Scanu je založena na postupném zkoumání a uvolňování jednotlivých částí v našem těle. Nabízí nám tedy možnostsnadno se navrátit do přítomnosti a setřást ze sebe napětí i stres.Více informací o mých aktivitách, včetně možnosti mne finančně podpořit mé online aktivity naleznete zde:www.marekvich.com/streamyZdroj: https://soundcloud.com/marekvich/meditace-body-scan#:~:text=Meditace%20Body%2DScanu%20je%20zalo%C5%BEena,ze%20sebe%20nap%C4%9Bt%C3%AD%20i%20stres`,
     category: 'Relaxace',
+    image: '/assets/bodyscan.jpg',
+    alt: 'bodyscan',
   },
   {
     title: 'Aromaterapie ',
     keys: 'aromaterapie',
     content: `Každá rostlina obsahuje ve svých kořenech, lodyhách, listech, semenech a květech kombinaci olejů, známých jako éterické oleje.Aromaterapieužívá éterické oleje vybraných rostlin, aby posilovala rovnováhu a harmonii organismu po fyzické i psychické stránce. Blahodárný účinek těchto olejů může být důsledkem jejich působení na hormony a jiné chemické látky, které zprostředkovávají přenos informací v těle i mozku...(https://www.celostnimedicina.cz/aromaterapie-pouziti.htm)`,
     category: 'Relaxace',
+    image: '/assets/aromaterapie.jpg',
+    alt: 'aromaterapie',
   },
   {
     title: 'Tanec',
     keys: 'tanec',
     content: `To, že tanec příznivě působí na fyzickou zdatnost, pro vědce příliš překvapivé zjištění nebylo. Prokázaly se však i další blahodárné účinky. Třeba na kognitivní funkce, které kromě paměti zahrnují i koncentraci, pozornost, řeč, rychlost myšlení či schopnost pochopeníinformací. Vědci zpozorovali změny ve struktuře mozku...Zdroj:https://www.idnes.cz/brno/zpravy/tanec-vliv-na-funkce-mozku-vyzkum-seniori-ceitec.A190215_457814_brno-zpravy_krut`,
     category: 'Relaxace',
+    image: '/assets/tanec.jpg',
+    alt: 'tanec',
   },
   {
     title: 'Svépomocné a podpůrné skupiny',
     keys: 'skupina',
     content: `Svépomocné skupiny představují účinnou pomoc a dostupnou možnost (i finanční), jak se zbavit bezmoci, jak se adaptovat na změnu podmínek a změnit svou zdánlivě bezvýchodnou situaci. Jsou založené na vzájemné pomoci a podpoře svých členů – člověk pomocpřijímá a současně poskytuje. Svépomocné skupiny překonávají asymetrii vztahu, který vzniká mezi profesionálním pomáhajícím a klientem.Lidé jsou spojeni zkušenostís určitým problémem. (Matoušek, 2003) ... Zdroj: https://poradna-socialni-prace.webnode.cz/svepomocne-skupiny/`,
     category: 'Relaxace',
+    image: '/assets/skupina.jpg',
+    alt: 'skupina',
   },
   {
     title: 'Jóga',
     keys: 'jóga',
     content: `Je tosystém tělesných a duševních cvičenípocházejících z Indie. Slovo “jóga” pochází ze sanskrtu a znamená ve svém původním významu “sepětí, pevné spojení, nerozborný vztah”...Podle B. K. S. Iyengara z psychologického hlediska jóga bystří intelekt a zlepšuje schopnosti koncentrace. Potlačuje emoce a vzbuzuje živý zájem o jiné. Dechová cvičení uklidňují mysl. Filozofie jógy klade život člověka do širších souvislostí. V oblasti ducha zvyšuje sebevědomí a schopnost zklidnění. Při meditaci lze dosáhnout vnitřního míru... Zdroj: https://www.yogapoint.cz/joga/o-joze/vyznam-jogy/`,
     category: 'Relaxace',
+    image: '/assets/joginka.jpg',
+    alt: 'joginka',
   },
   {
     title: 'Procházky vpřírodě',
     keys: 'příroda, procházky, procházky v přírodě ',
     content: `Víte, že chůze patří knejpřirozenějším pohybům? Provozovat ji mohou bez obav i lidé snadváhou, na rozdíl od mnoha dalších aktivittotiž nezatěžuje klouby. Navíc rozhýbete tělo, rozproudíte lymfatickýsystém, uvolníte se a věřte, že prospějete také duši. Prvních pár kroků vás možná budou otravovat dotěrné myšlenky, ale za chvilku se můžete přistihnout, jak pozorujete mraky na obloze, sledujete psí rande na ulici vedle, či jen tak jste... Zdroj: https://www.celostnimedicina.cz/zdrave-prochazky.htm`,
     category: 'Relaxace',
+    image: '/assets/prochazka.jpg',
+    alt: 'prochazka',
   },
   {
     title: 'Relaxační masáž',
     keys: 'relaxační masáž, masáž',
     content: `Relaxační masáže slouží k uvolnění těla a mysli, odstraňují stres a napětí, zmírňují bolesti zad, ztuhlost šíje, přináší zklidnění a celkově osvěžují celé tělo.Prostřednictvím měkkých technik spolu s vonnými nejkvalitnějšími aromatickými oleji, navodí stav vnitřní harmonie a přinese Vám uvolnění těla i mysli... Zdroj: https://masazeaterapiebrno.cz/relaxacni-masaze/#:~:text=Relaxa%C4%8Dn%C3%AD%20mas%C3%A1%C5%BEe%20slou%C5%BE%C3%AD%20k%20uvoln%C4%9Bn%C3%AD,V%C3%A1m%20uvoln%C4%9Bn%C3%AD%20t%C4%9Bla%20i%20mysli.`,
     category: 'Relaxace',
+    image: '/assets/masaz.jpg',
+    alt: 'masaz',
   },
   {
     title: 'Víkendový retreat',
     keys: 'víkend',
     content: `Dopřejte si čas na sebe se začátkem letních prázdnin, načerpejte energii a novou inspiraci a pojeďte s námi na samotu Beránkova Mlýna na Vysočině. Během prodlouženého víkendu se budeme věnovat józe, meditaci všímavosti, práci s dechem a práci s emocemi. Zažijeme také kakaovou ceremonii na otevření srdce s kakaem z Kostariky. Program vytváří promyšlený celek, díky kterémubude možné se zastavit, zklidnit a laskavě se spojit se svým tělem a vnitřními prožitky. Pobyt může být dobrým zastavením a restartem po náročném roku v lockdownu. Zároveň také získáte větší nadhled, a možná i odpovědi na své aktuální otázky nebo témata... Zdroj: https://vnitrniprostor.cz/akce/pobyty/prostor-k-nadechnuti/`,
     category: 'Relaxace',
+    image: '/assets/vikend.jpg',
+    alt: 'vikend',
   },
 ];

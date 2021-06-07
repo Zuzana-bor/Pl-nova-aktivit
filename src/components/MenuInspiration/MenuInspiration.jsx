@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export const MenuInspiration = () => (
   <nav>
-    <ul className="menu">
+    <ul className="menuOfInspiration">
       <li>
         <NavLink exact className="menu-link" to="/inspirace/kreativita">
           Kreativita

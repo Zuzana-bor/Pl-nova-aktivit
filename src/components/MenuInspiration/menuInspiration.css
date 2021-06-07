@@ -1,13 +1,14 @@
-.menu li {
+.menuOfInspiration li {
   display: inline-block;
 }
 
-.menu {
+.menuOfInspiration {
+
   margin: 0px;
   padding: 0px;
-  /* text-align: right; */
   font-family: 'Playfair Display', serif;
-  background-color: #9eb8ab;
+  background-color: #c2d3c3;
+  text-align: center;
 }
 
 .menu-link {

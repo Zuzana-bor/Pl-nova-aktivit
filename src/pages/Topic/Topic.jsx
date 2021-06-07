@@ -13,14 +13,19 @@ export const Topic = () => {
   return (
     <>
       <MenuInspiration />
-      <h1 className="title">{topic}</h1>
-      {relatetPosts.map((post) => (
-        <article className="onePost">
-          <img src={post.image} alt={post.alt} />
-          <h2>{post.title}</h2>
-          <section>{post.content.slice(0, 150)}...</section>
-        </article>
-      ))}
+      <div className="posts">
+        {relatetPosts.map((post) => (
+          <article className="onePost">
+            <figure className="imageTopicConteiner">
+              <img className="imageTopic" src={post.image} alt={post.alt} />
+            </figure>
+            <div>
+              <h2>{post.title}</h2>
+              <section>{post.content.slice(0, 150)}...</section>
+            </div>
+          </article>
+        ))}
+      </div>
     </>
   );
 };
