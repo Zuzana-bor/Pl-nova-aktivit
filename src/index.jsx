@@ -9,6 +9,7 @@ import { Inspiration } from './pages/Inspiration/Inspiration';
 import { Planner } from './pages/Plans/Planner';
 import { Diary } from './pages/Diary/Diary';
 import { Topic } from './pages/Topic/Topic';
+import {Footer} from './components/Footer/Footer';
 
 const App = () => (
   <>
@@ -35,6 +36,7 @@ const App = () => (
         </Switch>
       </div>
     </Router>
+  <Footer/>
   </>
 );
 
