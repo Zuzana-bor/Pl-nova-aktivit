@@ -10,6 +10,10 @@ export const Topic = () => {
   const relatetPosts = posts.filter(
     (post) => post.category.toLowerCase() === topic,
   );
+ 
+  const handleClick=()=>{
+    {post.content}
+}  
   return (
     <>
       <MenuInspiration />
@@ -21,7 +25,7 @@ export const Topic = () => {
             </figure>
             <div>
               <h2>{post.title}</h2>
-              <section>{post.content.slice(0, 150)}...</section>
+              <section onClick={handleclick}>{post.content.slice(0, 150)}...</section>
             </div>
           </article>
         ))}
