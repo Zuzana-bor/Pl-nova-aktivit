@@ -27,7 +27,8 @@ const items = [
 ];
 
 export const Plans = () => {
-  const [list, setList] = useState(items);
+    const [listOfPosts, setListOfPoste] = useState();
+
   const handleClick = (id) => {
     setList(
       list.map((item) =>
