@@ -6,12 +6,12 @@ import './diary.css';
 const items = [
   {
     date: '05.06.2021',
-    note: 'Dnes jsme zažili ve Stromovce...',
+    note: 'Jednou ve Stromovce...',
     content: 'Prvni obsah'
   },
 
   {
-    date: '06.06.2021',
+    date: '11.06.2021',
     note: 'Dnešní procházka...',
     content: 'Druhy obsah'
   },
