@@ -2,17 +2,16 @@ import React, { useState } from 'react';
 import './search.css';
 import { posts } from '../../data';
 
-export const Search = () => {
-  const [listOfTopic, setListOfTopic] = useState([]);
-
-  const handleClick = () => {
-    onSubmit(listOfTopic);
-    setListOfTopic([]);
+export const Search = ({searching}) => {
+  
+const handleSubmit = (result) => {
+  searching(result);
+   
   };
-
+  
   return (
     <>
-      <form id="formOfSearch" className="search">
+      <form onSubmit={handleSubmit} id="formOfSearch" className="search">
         <input
           onChange={(event) => setListOfTopic(event.target.value)}
           value={listOfTopic}
@@ -20,7 +19,7 @@ export const Search = () => {
           type="text"
           placeholder="hledej"
         />
-        <button onClick={handleClick} id="search" type="submit">
+        <button onClick={handleSubmit} id="search" type="submit">
           Hledat
         </button>
       </form>
