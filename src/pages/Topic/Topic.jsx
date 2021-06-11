@@ -6,25 +6,19 @@ import { posts } from '../../data';
 import { Search } from '../../components/Search/Search';
 
 export const Topic = () => {
-  const [listOfTopic, setListOfTopic] = useState([]);
+  const [filter, setFilter] = useState('');
 
-  const handleClick = (event) => {
-    const result = posts.filter((post) =>
-      post.keys.includes(event.target.value),
-    );
-    setListOfTopic(result);
-  };
-
-  let { topic } = useParams();
+  const { topic } = useParams();
 
   const relatetPosts = posts.filter(
-    (post) => post.category.toLowerCase() === topic,
+    (post) =>
+      post.category.toLowerCase() === topic && post.keys.includes(filter),
   );
 
   return (
     <>
       <MenuInspiration />
-      <Search searching={handleClick} />
+      <Search performSearch={(text) => setFilter(text)} />
       <div className="posts">
         {relatetPosts.map((post) => (
           <article className="onePost" key={post.title}>
