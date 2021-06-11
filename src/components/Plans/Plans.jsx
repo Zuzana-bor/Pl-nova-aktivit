@@ -26,9 +26,10 @@ const items = [
   },
 ];
 
-export const Plans = () => {
+export const Plans = ({getQuote}) => {
   const [list, setList] = useState(items);
   const handleClick = (id) => {
+    getQuote();
     setList(
       list.map((item) =>
         id === item.id ? { ...item, isChecked: !item.isChecked } : item,
