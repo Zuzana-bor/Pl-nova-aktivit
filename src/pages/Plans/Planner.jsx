@@ -6,10 +6,10 @@ export const Planner = () => {
   const [quote, setQuote] = useState(' ');
   
   const getQuote = () => {
-    setQuote("Citat")
-    //fetch(`https://cors-anywhere.herokuapp.com/https://www.affirmations.dev/`)
-      //.then((response) => response.json())
-      //.then((json) => setQuote(json.affirmation));
+    //setQuote("Citat")
+   fetch(`https://cors-anywhere.herokuapp.com/https://www.affirmations.dev/`)
+      .then((response) => response.json())
+      .then((json) => setQuote(json.affirmation));
   };
 
   return (

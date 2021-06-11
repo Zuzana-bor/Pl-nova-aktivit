@@ -43,10 +43,23 @@ export const Plans = ({getQuote}) => {
 
   const handleClick = (id) => {
     getQuote();
+    let count=0;
     setList(
       list.map((item) =>
         id === item.id ? { ...item, isChecked: !item.isChecked } : item,
-      ).sort(compare),
+      ).filter((item)=>{
+        if (item.isChecked) {
+          count=count+1;
+          if (count>2) {
+            return false;
+          } else {
+            return true;
+          }
+
+        } else {
+            return true
+        }
+       }).sort(compare),
     );
   };
 
