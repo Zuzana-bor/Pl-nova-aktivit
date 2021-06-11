@@ -17,9 +17,7 @@ export const Planner = () => {
       <div className="planner">
         <div className="activity">
           <h1>Můj seznam aktivit</h1>
-          <div>
-            <li className="citat">{quote}</li>
-          </div>
+          <div className="citat">{quote}</div>
         </div>
         <Plans getQuote={getQuote} />
       </div>
