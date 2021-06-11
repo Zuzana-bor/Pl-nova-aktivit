@@ -1,0 +1,18 @@
+.search {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: gray;
+  border-radius: 4px;
+  display: flex;
+}
+
+input,
+button {
+  padding: 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  outline: 0;
+}
