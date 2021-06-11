@@ -3,24 +3,24 @@ import './search.css';
 import { posts } from '../../data';
 
 export const Search = ({ searching }) => {
-  const handleSubmit = (result) => {
-    searching(result);
+  const [text, setText] = useState('');
+
+  const handleSubmit = () => {
+    searching(text);
   };
 
   return (
     <>
-      <form onSubmit={handleSubmit} id="formOfSearch" className="search">
+      <div className="search">
         <input
-          onChange={(event) => setListOfTopic(event.target.value)}
-          // value={listOfTopic}
+          onChange={(event) => setText(event.target.value)}
+          value={text}
           id="query"
           type="text"
           placeholder="hledej"
         />
-        <button onClick={handleSubmit} id="search" type="submit">
-          Hledat
-        </button>
-      </form>
+        <button onClick={handleSubmit}>Hledat</button>
+      </div>
     </>
   );
 };
