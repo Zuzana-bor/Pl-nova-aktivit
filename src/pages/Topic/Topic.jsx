@@ -6,21 +6,25 @@ import { posts } from '../../data';
 import { Search } from '../../components/Search/Search';
 
 export const Topic = () => {
+  const [listOfTopic, setListOfTopic] = useState([]);
+  
+const handleClick = (event) => {
+     const result = posts.filter((post) => post.keys.includes(event.target.value));
+    setListOfTopic(result);
+};
+  
   let { topic } = useParams();
 
   const relatetPosts = posts.filter(
     (post) => post.category.toLowerCase() === topic,
   );
 
-  const handleSubmit = (listOfTopic) => {
-    const result = posts.filter((post) => post.keys.includes(value));
-    console.log(result);
-  };
+  
 
   return (
     <>
       <MenuInspiration />
-      <Search onSubmit={handleSubmit} />
+      <Search key="query" searching={handleClick}  />
       <div className="posts">
         {relatetPosts.map((post) => (
           <article className="onePost">
