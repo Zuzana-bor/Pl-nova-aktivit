@@ -29,12 +29,24 @@ const items = [
 export const Plans = ({getQuote}) => {
   const [list, setList] = useState(items);
 
+  function compare(a, b) {
+    if (a.isChecked===b.isChecked) {
+      return 0;
+    }
+    if (a.isChecked&&!b.isChecked) {
+      return 1;
+    }
+    if (!a.isChecked&&b.isChecked) {
+      return -1;
+    }
+  }
+
   const handleClick = (id) => {
     getQuote();
     setList(
       list.map((item) =>
         id === item.id ? { ...item, isChecked: !item.isChecked } : item,
-      ),
+      ).sort(compare),
     );
   };
 
