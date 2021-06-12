@@ -1,3 +1,14 @@
 .styleDiary {
-  display:flex;
+  display: flex;
+}
+
+.nadpis_historie {
+  text-align: center;
+  font-size: 24px;
+  color: #6b5b55;
+  font-weight: bold;
+}
+
+.historie__conteiner {
+  border: 2px solid black;
 }

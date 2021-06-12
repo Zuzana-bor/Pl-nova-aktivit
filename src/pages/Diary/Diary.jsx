@@ -7,13 +7,13 @@ const items = [
   {
     date: '05.06.2021',
     note: 'Jednou ve Stromovce...',
-    content: 'Prvni obsah'
+    content: 'Prvni obsah',
   },
 
   {
     date: '11.06.2021',
     note: 'Dnešní procházka...',
-    content: 'Druhy obsah'
+    content: 'Druhy obsah',
   },
 ];
 
@@ -21,14 +21,19 @@ export const Diary = () => {
   const [seznam, setSeznam] = useState(items);
 
   const handleSubmit = (values) => {
-    setSeznam([...seznam,values])
+    setSeznam([...seznam, values]);
   };
 
   return (
     <>
       <div className="styleDiary">
-        <ExperienceItems items={seznam} />
-        <DiaryForm onSubmit={handleSubmit}/>
+        <div>
+          <h4 className="nadpis_historie">Historie</h4>
+          <div className="historie__conteiner">
+            <ExperienceItems items={seznam} />
+          </div>
+        </div>
+        <DiaryForm onSubmit={handleSubmit} />
       </div>
     </>
   );

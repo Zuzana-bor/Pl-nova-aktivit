@@ -3,11 +3,10 @@
 }
 
 .menuOfInspiration {
-
   margin: 0px;
   padding: 0px;
   font-family: 'Playfair Display', serif;
-  background-color: #c2d3c3;
+  background-color: #bcdfce;
   text-align: center;
 }
 
@@ -24,7 +23,7 @@
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
-  background-color: #bcdfce;
+  background-color: #9baaa3;
 }
 
 .menu-link.active {

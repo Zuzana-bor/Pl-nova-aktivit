@@ -331,7 +331,7 @@ export const posts = [
     keys: 'tanec',
     content: `To, že tanec příznivě působí na fyzickou zdatnost, pro vědce příliš překvapivé zjištění nebylo. Prokázaly se však i další blahodárné účinky. Třeba na kognitivní funkce, které kromě paměti zahrnují i koncentraci, pozornost, řeč, rychlost myšlení či schopnost pochopeníinformací. Vědci zpozorovali změny ve struktuře mozku...Zdroj:https://www.idnes.cz/brno/zpravy/tanec-vliv-na-funkce-mozku-vyzkum-seniori-ceitec.A190215_457814_brno-zpravy_krut`,
     category: 'Relaxace',
-    image: '/assets/tanec.jpg',
+    image: '/assets/tanec.png',
     alt: 'tanec',
   },
   {
