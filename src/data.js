@@ -51,6 +51,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/beach.jpg',
     alt: 'beach',
+    id: 1
   },
   {
     title: 'Matka x Dcera',
@@ -74,6 +75,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/mama.jpg',
     alt: 'mama',
+    id: 2
   },
   {
     title: 'Přátelství',
@@ -102,6 +104,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/pratelstvi.jpg',
     alt: 'pratelstvi',
+    id: 3
   },
   {
     title: 'Spokojený partnerský vztah',
