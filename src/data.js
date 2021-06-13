@@ -2,8 +2,10 @@ export const posts = [
   {
     title: 'Sebeláska',
     keys: 'Sebeláska',
-    content: `Njeduležitější vztah, je vztah k sobě samému. Zde se dozvíte, jak sebeláska ovlivňuje životní spokojenost a celkově kvalitu života. 
+    content: `Njeduležitější vztah, je vztah k sobě samému. Zde se dozvíte, jak sebeláska ovlivňuje životní spokojenost a celkově kvalitu života.
+
     CO JE TO SEBELÁSKA?
+
     Sebeláska je o přijetí sebe samého jako jednoho velkého celku. Bezpodmínečná láska k sobě samému znamená přijetí své tělesné, mentální i duševní podstaty bytí a to jak svou světlou, tak i temnou stránku sebe sama.
     Sebeláska je o tom, jaký mátevztah k sobě. Jde o to, jak dokážete přijmout a milovat sám sebe a všechny části svého bytí. To znamená přijmout a milovat jak svou temnou stránku, tak i tu světlou.
     Znamená to mít velký respekt sám k sobě, ke svému tělu, k vlastní mysli, ke svému štěstí i své cestě. Jde o to starat se o své potřeby, namísto jejich obětování na úkor ostatních, aby jste se jim zavděčili. Jde o to znát svou hodnotu, mít správně nastavené hranice a umět říct ne. 
@@ -51,7 +53,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/beach.jpg',
     alt: 'beach',
-    id: 1
+    id: 1,
   },
   {
     title: 'Matka x Dcera',
@@ -75,7 +77,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/mama.jpg',
     alt: 'mama',
-    id: 2
+    id: 2,
   },
   {
     title: 'Přátelství',
@@ -104,7 +106,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/pratelstvi.jpg',
     alt: 'pratelstvi',
-    id: 3
+    id: 3,
   },
   {
     title: 'Spokojený partnerský vztah',
@@ -250,7 +252,7 @@ export const posts = [
     alt: 'sebelaska',
   },
   {
-    title: 'Nastandartní použití',
+    title: 'Nadstandartní použití',
     keys: 'nestandartní',
     content: `Vezměte obvyklý předmět, který používáte v každodenním životě a snažte se přijít s největším počtem nestandardních použití. Třeba taková lžíce. Nemusíte s ní jen jíst. Můžete z ní vyrobit jedinečnou lampu, obraz nebo s ní označit, kde jste co zasadili na zahradě.`,
     category: 'Kreativita',
@@ -267,7 +269,7 @@ export const posts = [
   },
   {
     title: 'Nová jídla',
-    keys: 'Nová jídla',
+    keys: 'jídlo',
     content: `Vyzkoušejte jídla jiné světové kuchyně, vyberte novou trasu, kterou půjdete domů z práce a tak podobně. Když se nad tím zamyslíte, je v našem životě spousta drobných zvyků, kterými se zavíráme do krabice. Snažte se tyto zdi zbořit a vystoupit za její hranice.`,
     category: 'Kreativita',
     image: '/assets/kuchyne.jpg',
