@@ -132,6 +132,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/love.jpg',
     alt: 'vztah',
+    id: 4,
   },
   {
     title: 'Člověk a zvíře',
@@ -149,6 +150,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/pes.jpg',
     alt: 'pes',
+    id: 5,
   },
   {
     title: 'Vztah s rodiči',
@@ -174,6 +176,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/rodice.jpg',
     alt: 'rodice',
+    id: 6,
   },
   {
     title: 'Naplněný vztah',
@@ -206,6 +209,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/couple.jpg',
     alt: 'par',
+    id: 7,
   },
   {
     title: 'Důvěra',
@@ -221,6 +225,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/duvera.jpg',
     alt: 'duvera',
+    id: 8,
   },
   {
     title: 'Potřeba uznání',
@@ -238,6 +243,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/uznani.jpg',
     alt: 'uznani',
+    id: 9,
   },
   {
     title: 'Sebeláska ve vztahu',
@@ -250,6 +256,7 @@ export const posts = [
     category: 'Vztahy',
     image: '/assets/sebelaska.jpg',
     alt: 'sebelaska',
+    id: 10,
   },
   {
     title: 'Nadstandartní použití',
@@ -258,6 +265,7 @@ export const posts = [
     category: 'Kreativita',
     image: '/assets/pribor.jpg',
     alt: 'pribor',
+    id: 11,
   },
   {
     title: 'Změna',
@@ -266,6 +274,7 @@ export const posts = [
     category: 'Kreativita',
     image: '/assets/restaurace.jpg',
     alt: 'restaurace',
+    id: 12,
   },
   {
     title: 'Nová jídla',
@@ -274,6 +283,7 @@ export const posts = [
     category: 'Kreativita',
     image: '/assets/kuchyne.jpg',
     alt: 'kuchyne',
+    id: 13,
   },
   {
     title: 'Alternativní způsob',
@@ -282,6 +292,7 @@ export const posts = [
     category: 'Kreativita',
     image: '/assets/einstein.jpg',
     alt: 'einstein',
+    id: 14,
   },
   {
     title: 'Tvroba',
@@ -290,6 +301,7 @@ export const posts = [
     category: 'Kreativita',
     image: '/assets/art.jpg',
     alt: 'art',
+    id: 15,
   },
   {
     title: 'Cestování',
@@ -298,6 +310,7 @@ export const posts = [
     category: 'Kreativita',
     image: '/assets/sky.jpg',
     alt: 'sky',
+    id: 16,
   },
   {
     title: 'Asociativní myšlení',
@@ -306,6 +319,7 @@ export const posts = [
     category: 'Kreativita',
     image: '/assets/asociace.jpg',
     alt: 'asociace',
+    id: 17,
   },
   {
     title: 'Mindfullness (všímavost)',
@@ -314,6 +328,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/mindfullness.jpg',
     alt: 'mindfullness',
+    id: 18,
   },
   {
     title: 'Relaxační techniky (např. body-scan)',
@@ -322,6 +337,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/bodyscan.jpg',
     alt: 'bodyscan',
+    id: 19, 
   },
   {
     title: 'Aromaterapie ',
@@ -330,6 +346,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/aromaterapie.jpg',
     alt: 'aromaterapie',
+    id: 20,
   },
   {
     title: 'Tanec',
@@ -338,6 +355,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/tanec.png',
     alt: 'tanec',
+    id: 21,
   },
   {
     title: 'Svépomocné a podpůrné skupiny',
@@ -346,6 +364,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/skupina.jpg',
     alt: 'skupina',
+    id: 22,
   },
   {
     title: 'Jóga',
@@ -354,6 +373,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/joginka.jpg',
     alt: 'joginka',
+    id: 23,
   },
   {
     title: 'Procházky vpřírodě',
@@ -362,6 +382,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/prochazka.jpg',
     alt: 'prochazka',
+    id: 24,
   },
   {
     title: 'Relaxační masáž',
@@ -370,6 +391,7 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/masaz.jpg',
     alt: 'masaz',
+    id: 25,
   },
   {
     title: 'Víkendový retreat',
@@ -378,5 +400,6 @@ export const posts = [
     category: 'Relaxace',
     image: '/assets/vikend.jpg',
     alt: 'vikend',
+    id: 26,
   },
 ];
